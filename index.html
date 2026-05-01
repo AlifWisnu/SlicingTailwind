@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <style>
+        @font-face {
+        font-family: "Circular Std";
+        src: url("./Ui/CircularStd-Book.ttf");
+        font-weight: normal;
+        font-style: normal;
+        }
+        body {
+            font-family: "Circular Std", sans-serif;
+        }
+    </style>
+</head>
+<body class="pr-13 pl-13">
+    <img src="./Ui/BlurOrange.png" alt="" class="absolute top-0 left-0 -z-10">
+
+    <header class="flex items-center justify-between p-4">
+        <div class="flex items-center">
+            <img src="./Ui/logo.png" alt="Logo" class="pr-3">
+            <p class="font-bold">Travlog</p>
+        </div>
+        <div class="flex gap-5">
+            <div><button class="text-gray-500 hover:text-black hover:font-bold">Home</button></div>
+            <div><button class="text-gray-500 hover:text-black hover:font-bold">Discover</button></div>
+            <div><button class="text-gray-500 hover:text-black hover:font-bold">Special Deals</button></div>
+            <div><button class="text-gray-500 hover:text-black hover:font-bold">Contact</button></div>
+        </div>
+        <div class="flex items-center gap-5">
+            <div><button class="font-bold px-3 py-2 rounded-full hover:bg-indigo-400 hover:text-white">Log in</button></div>
+            <div><button class="text-white bg-indigo-500 px-3 py-2 rounded-full hover:bg-indigo-700">Sign up</button></div>
+        </div>
+    </header>
+
+    <div class="flex justify-between">
+        <div class="flex flex-col gap-5">
+            <div>
+                <button class="flex items-center gap-3 bg-white text-pink-500 px-4 py-2 rounded-full">
+                    <div>Explore the world!</div>
+                    <img src="./Ui/Exploretheworld!.png" alt="">
+                </button>
+            </div>
+            <div>
+                <div class="text-5xl font-bold inline">Travel <div class="text-pink-500 inline">top <br> destination</div> of the world</div>
+                <div class="text-gray-600">We always make our customer happy by providing as many choices as possible</div>
+            </div>
+        </div>
+        <div class="relative flex">
+            <img src="./Ui/globe.png" alt="" class="absolute top-1 right-0 z-10">
+            <div class="flex gap-5 items-center">
+                <div class="flex flex-col gap-5">
+                    <div><img src="./Ui/lawutAtas.jpg" alt="" class="rounded-4xl"></div>
+                    <div><img src="./Ui/pendakiAtas.jpg" alt="" class="rounded-4xl"></div>
+                </div>
+                <div>
+                    <img src="./Ui/photografer.jpg" alt="" class="rounded-4xl">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+</body>
+</html>
