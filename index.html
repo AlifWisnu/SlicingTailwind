@@ -17,10 +17,10 @@
         }
     </style>
 </head>
-<body class="mr-13 ml-13">
+<body>
     <img src="./Ui/BlurOrange.png" alt="" class="absolute top-0 left-0 -z-10">
 
-    <header class="flex items-center justify-between p-4">
+    <header class="flex items-center justify-between py-4 px-30 fixed top-0 left-0 right-0 z-10 bg-white/80 backdrop-blur-sm z-99">
         <div class="flex items-center">
             <img src="./Ui/logo.png" alt="Logo" class="pr-3">
             <p class="font-bold">Travlog</p>
@@ -32,13 +32,13 @@
             <div><button class="text-gray-500 hover:text-black hover:font-bold">Contact</button></div>
         </div>
         <div class="flex items-center gap-5">
-            <div><button class="font-bold px-3 py-2 rounded-full hover:bg-indigo-400 hover:text-white">Log in</button></div>
+            <div><button class="font-bold px-3 py-2 rounded-full hover:bg-gray-200">Log in</button></div>
             <div><button class="text-white bg-indigo-500 px-3 py-2 rounded-full hover:bg-indigo-700">Sign up</button></div>
         </div>
     </header>
 
 
-    <div class="flex justify-between items-center mt-20">
+    <div class="flex justify-between items-center mt-40 mb-20 mx-30">
         <div class="flex flex-col gap-10 w-2/5">
             <div>
                 <button class="flex items-center gap-3 bg-white text-pink-500 px-4 py-2 rounded-full">
@@ -51,9 +51,9 @@
                 <div class="text-gray-600">We always make our customer happy by providing as many choices as possible</div>
             </div>
             <div class="flex gap-5">
-                <div><button class="px-7 py-3 text-white font-blod bg-indigo-500 hover:bg-indigo-700 rounded-full">Get Started</button></div>
+                <div><button class="px-4 py-2 text-white font-blod bg-indigo-500 hover:bg-indigo-700 rounded-full">Get Started</button></div>
                 <div>
-                    <button class="flex px-7 py-3 border border-gray-300 rounded-full hover:bg-gray-200"><img src="./Ui/start.png" alt="" class="mr-2">Watch Demo</button>
+                    <button class="flex px-4 py-2 border border-gray-300 rounded-full hover:bg-gray-200"><img src="./Ui/start.png" alt="" class="mr-2">Watch Demo</button>
                 </div>
             </div>
         </div>
@@ -82,16 +82,100 @@
     </div>
 
 
-    <!-- <div class="relative">
-        <img src="./Ui/segitigaOrange.png" alt="">
-        <div class="flex ">
+    <div class="flex relative justify-between my-20 mx-30">
+        <img src="./Ui/segitigaOrange.png" alt="" class="absolute bottom-0 -left-25">
+        <div class="flex justify-between w-full">
             <div><img src="./Ui/sponsor1.png" alt=""></div>
             <div><img src="./Ui/sponsor2.png" alt=""></div>
             <div><img src="./Ui/sponsor3.png" alt=""></div>
             <div><img src="./Ui/sponsor4.png" alt=""></div>
             <div><img src="./Ui/sponsor5.png" alt=""></div>
         </div>
-    </div> -->
+        <img src="./Ui/blurKuning.png" alt="" class="absolute -top-200 -right-30 z-0">
+    </div>
 
+    
+    <div class="flex justify-center items-center my-20 ml-30 gap-5 relative overflow-hidden">
+        <div class="w-1/3 flex flex-col gap-2">
+            <div><p class="text-pink-500 text-xl font-semibold uppercase tracking-widest">Services</p></div>
+            <div><h1 class="text-3xl font-semibold">Our top value categories for you</h1></div>
+        </div>
+        <div class="w-2/3 flex justify-start items-center gap-20">
+            <div class="flex flex-col justify-center my-10 items-center text-center w-1/3 gap-10 py-20 px-10 rounded-4xl bg-white">
+                <div><img src="./Ui/globeMini.png" alt=""></div>
+                <div><h2 class="text-xl font-bold">Best Tour Guide</h2></div>
+                <div><p class="text-gray-600 font-extralight">What looked like a small patch of purple grass, above five feet.</p></div>
+            </div>
+            <div class="flex flex-col justify-center my-10 items-center text-center w-1/3 gap-10 py-20 px-10 rounded-4xl bg-white shadow-xl/20">
+                <div><img src="./Ui/booking.png" alt=""></div>
+                <div><h2 class="text-xl font-bold">Easy Booking</h2></div>
+                <div><p class="text-gray-600 font-extralight">Square, was moving across the sand in their direction.</p></div>
+            </div>
+            <div class="flex flex-col justify-center my-10 items-center text-center w-1/3 gap-10 py-20 px-10 rounded-4xl bg-white shadow-xl/20 absolute -right-70">
+                <div><img src="./Ui/booking.png" alt=""></div>
+                <div><h2 class="text-xl font-bold">Easy Booking</h2></div>
+                <div><p class="text-gray-600 font-extralight">Square, was moving across the sand in their direction.</p></div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="flex justify-between items-center my-20 mx-30 gap-5">
+        <div class="flex flex-col gap-2">
+            <div><h2 class="text-pink-500 text-xl font-semibold uppercase tracking-widest">Top Destination</h2></div>
+            <div><h1 class="text-3xl font-semibold">Explore top destination</h1></div>
+        </div>
+        <div class="flex gap-2">
+            <div><button class="px-6 py-5 rounded-full border-2 border-gray-300 hover:bg-gray-200">←</button></div>
+            <div><button class="px-6 py-5 rounded-full bg-indigo-500 text-white hover:bg-indigo-700">→</button></div>
+        </div>
+    </div>
+
+
+    <div class="flex px-30 justify-between gap-5 relative">
+        <div class="w-1/3">
+            <div><img src="./Ui/pantai.png" alt="" class="rounded-t-xl object-cover"></div>
+            <div class="flex flex-col py-5 px-3 gap-2 rounded-b-xl shadow-xl/20">
+                <div class="flex justify-between">
+                    <div><h3 class="font-semibold text-base w-2/3">Paradise Beach, Bantayan Island</h3></div>
+                    <div><h3 class="font-semibold text-base text-pink-500 w-1/3">$550.16</h3></div>
+                </div>
+                <div><p class="text-gray-600">Rome, Italy</p></div>
+                <div class="flex gap-2">
+                    <div><p class="font-semibold text-orange-600">4.8</p></div>
+                    <div><img src="./Ui/star.png" alt="" class=""></div>
+                </div>
+            </div>
+        </div>
+        <div class="w-1/3">
+            <div><img src="./Ui/iwak.png" alt="" class="rounded-t-xl object-contain h-1/3"></div>
+            <div class="flex flex-col py-5 px-3 gap-2 rounded-b-xl shadow-xl/20">
+                <div class="flex justify-between">
+                    <div><h3 class="font-semibold text-base w-2/3">Ocean with full of Colors</h3></div>
+                    <div><h3 class="font-semibold text-base text-pink-500 w-1/3">$20.99</h3></div>
+                </div>
+                <div><p class="text-gray-600">Maldives</p></div>
+                <div class="flex gap-2">
+                    <div><p class="font-semibold text-orange-600">4.5</p></div>
+                    <div><img src="./Ui/star.png" alt=""></div>
+                </div>
+            </div>
+        </div>
+        <div class="w-1/3">
+            <div><img src="./Ui/gunung.png" alt="" class="rounded-t-xl object-contain h-1/3"></div>
+            <div class="flex flex-col py-5 px-3 gap-2 rounded-b-xl shadow-xl/20">
+                <div class="flex justify-between ">
+                    <div><h3 class="font-semibold text-base w-2/3">Mountain View, Above the cloud</h3></div>
+                    <div><h3 class="font-semibold text-base text-pink-500 w-1/3">$150.99</h3></div>
+                </div>
+                <div><p class="text-gray-600">United Arab Emeries</p></div>
+                <div class="flex gap-2">
+                    <div><p class="font-semibold text-orange-600">5.0</p></div>
+                    <div><img src="./Ui/star.png" alt=""></div>
+                </div>
+            </div>
+        </div>
+        <img src="./Ui/tanggaX.png" alt="" class="absolute right-0 -top-5">
+    </div>
 </body>
 </html>
